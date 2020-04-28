@@ -40,6 +40,9 @@
     <loc>https://usethis.r-lib.org/reference/git_vaccinate.html</loc>
   </url>
   <url>
+    <loc>https://usethis.r-lib.org/reference/github_actions.html</loc>
+  </url>
+  <url>
     <loc>https://usethis.r-lib.org/reference/licenses.html</loc>
   </url>
   <url>
@@ -55,10 +58,16 @@
     <loc>https://usethis.r-lib.org/reference/proj_utils.html</loc>
   </url>
   <url>
+    <loc>https://usethis.r-lib.org/reference/rename_files.html</loc>
+  </url>
+  <url>
     <loc>https://usethis.r-lib.org/reference/rprofile-helper.html</loc>
   </url>
   <url>
     <loc>https://usethis.r-lib.org/reference/tidyverse.html</loc>
+  </url>
+  <url>
+    <loc>https://usethis.r-lib.org/reference/ui-questions.html</loc>
   </url>
   <url>
     <loc>https://usethis.r-lib.org/reference/ui.html</loc>
@@ -91,6 +100,9 @@
     <loc>https://usethis.r-lib.org/reference/use_data.html</loc>
   </url>
   <url>
+    <loc>https://usethis.r-lib.org/reference/use_data_table.html</loc>
+  </url>
+  <url>
     <loc>https://usethis.r-lib.org/reference/use_description.html</loc>
   </url>
   <url>
@@ -115,6 +127,9 @@
     <loc>https://usethis.r-lib.org/reference/use_github.html</loc>
   </url>
   <url>
+    <loc>https://usethis.r-lib.org/reference/use_github_action.html</loc>
+  </url>
+  <url>
     <loc>https://usethis.r-lib.org/reference/use_github_labels.html</loc>
   </url>
   <url>
@@ -125,6 +140,12 @@
   </url>
   <url>
     <loc>https://usethis.r-lib.org/reference/use_jenkins.html</loc>
+  </url>
+  <url>
+    <loc>https://usethis.r-lib.org/reference/use_latest_dependencies.html</loc>
+  </url>
+  <url>
+    <loc>https://usethis.r-lib.org/reference/use_lifecycle.html</loc>
   </url>
   <url>
     <loc>https://usethis.r-lib.org/reference/use_logo.html</loc>
@@ -191,6 +212,9 @@
   </url>
   <url>
     <loc>https://usethis.r-lib.org/reference/use_tutorial.html</loc>
+  </url>
+  <url>
+    <loc>https://usethis.r-lib.org/reference/use_ui.html</loc>
   </url>
   <url>
     <loc>https://usethis.r-lib.org/reference/use_version.html</loc>
