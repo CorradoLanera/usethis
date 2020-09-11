@@ -213,15 +213,15 @@ advice on how to store this.</p></li>
     </div>
 
     <pre class="usage"><span class='fu'>browse_github_token</span>(
-  <span class='kw'>scopes</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"repo"</span>, <span class='st'>"gist"</span>, <span class='st'>"user:email"</span>),
-  <span class='kw'>description</span> <span class='kw'>=</span> <span class='st'>"R:GITHUB_PAT"</span>,
-  <span class='kw'>host</span> <span class='kw'>=</span> <span class='st'>"https://github.com"</span>
+  scopes = <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"repo"</span>, <span class='st'>"gist"</span>, <span class='st'>"user:email"</span>),
+  description = <span class='st'>"R:GITHUB_PAT"</span>,
+  host = <span class='st'>"https://github.com"</span>
 )
 
 <span class='fu'>browse_github_pat</span>(
-  <span class='kw'>scopes</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"repo"</span>, <span class='st'>"gist"</span>, <span class='st'>"user:email"</span>),
-  <span class='kw'>description</span> <span class='kw'>=</span> <span class='st'>"R:GITHUB_PAT"</span>,
-  <span class='kw'>host</span> <span class='kw'>=</span> <span class='st'>"https://github.com"</span>
+  scopes = <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"repo"</span>, <span class='st'>"gist"</span>, <span class='st'>"user:email"</span>),
+  description = <span class='st'>"R:GITHUB_PAT"</span>,
+  host = <span class='st'>"https://github.com"</span>
 )
 
 <span class='fu'>github_token</span>()</pre>
@@ -265,7 +265,7 @@ editing.</p>
     <div class='dont-index'><p><code><a href='https://rdrr.io/pkg/gh/man/gh_whoami.html'>gh::gh_whoami()</a></code> for information on an existing token.</p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='kw'>if</span> (<span class='fl'>FALSE</span>) {
+    <pre class="examples"><div class='input'><span class='co'>if</span> (<span class='fl'>FALSE</span>) {
 <span class='fu'>browse_github_token</span>()
 <span class='co'>## COPY THE PAT!!!</span>
 <span class='co'>## almost certainly to be followed by ...</span>
@@ -273,7 +273,8 @@ editing.</p>
 <span class='co'>## which helps you store the PAT as an env var</span>
 }
 <span class='co'># for safety's sake, just reveal first 4 characters</span>
-<span class='fu'><a href='https://rdrr.io/r/base/substr.html'>substr</a></span>(<span class='fu'>github_token</span>(), <span class='fl'>1</span>, <span class='fl'>4</span>)</div><div class='output co'>#&gt; [1] ""</div></pre>
+<span class='fu'><a href='https://rdrr.io/r/base/substr.html'>substr</a></span>(<span class='fu'>github_token</span>(), <span class='fl'>1</span>, <span class='fl'>4</span>)
+</div><div class='output co'>#&gt; [1] ""</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
@@ -289,7 +290,7 @@ editing.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.9000.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.0.9000.</p>
 </div>
 
       </footer>
